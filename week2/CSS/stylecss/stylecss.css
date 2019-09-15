@@ -1,0 +1,39 @@
+#Header{
+    background-color: aqua
+}
+#MenuBar{
+    background-color: aquamarine
+}
+p{
+    background-color: antiquewhite
+}
+.warning{
+    background-color: blue
+}
+.error{
+    background-color: brown
+}
+.class-a{
+    background-color: blueviolet
+}
+a.class-a{
+    background-color: blueviolet
+}
+p.class-a{
+    background-color: salmon
+}
+span,p.prg,div#test{
+    background-color: brown
+}
+p.bg-black.bg-green{
+    background-color: cornflowerblue
+}
+div#Header a{
+    color:white
+}
+div#Header > a{
+    color:black
+}
+div#Header div#Search > a{
+    background-color: coral
+}
