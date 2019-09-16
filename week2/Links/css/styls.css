@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Tahoma"
+}
+#navigation{
+    height: 50px;
+    background-color: #c98080
+}
+#navigation .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet
+}
+#navigation ul li {
+    display: inline-block;
+}
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+#navigation ul li a:hover{
+    background-color: beige
+}
+#vert-nav{
+    width: 200px;
+    margin: 30px auto;
+    border: 1px solid gainsboro
+}
+#vert-nav ul {
+    list-style: none;
+}
+#vert-nav ul li a {
+    
+    display: block;
+    color: gray;
+    text-decoration: none;  
+    font-size: 0.9em;
+    padding: 10px;
+}
+#vert-nav ul li a:hover {
+    background-color:gainsboro;
+}
+#vert-nav ul li.sep {
+    width: 100%;
+    height: 1px;
+    background-color:gainsboro;
+}
