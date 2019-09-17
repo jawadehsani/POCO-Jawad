@@ -1,0 +1,31 @@
+#navigation{
+    height: 50px;
+    background-color:#e7e7e7e;
+}
+#navigation .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+}
+#navigation ul li {
+    display: inline-block;
+}
+#navigation ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 20px;
+    display: inline-block;
+    font-size: 0.9em;
+}
+#main {
+    width:100%;
+    height: 500px;
+    background-color: #e7e7e7;
+    
+}
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+}
