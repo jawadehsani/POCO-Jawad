@@ -1,0 +1,21 @@
+body {    
+    background-color: gold;
+    background-image: url(../images/bg-1.png);
+    background-repeat: repeat;
+    /*
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y; 
+    background-position: center center; 
+    */
+    background-attachment: fixed;
+    background-size: 200px 200px;
+    /* background: color  image  repeat  attachment  position */
+    background: chocolate url(../images/bg-1.png) repeat fixed center center;
+}
+p{
+    font-size: 3em;
+    color: white;
+    background-image: url(../images/bg-2.png);
+    background-color: rgba(red, green, blue, 0.5)
+}

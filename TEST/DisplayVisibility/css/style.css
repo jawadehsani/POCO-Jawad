@@ -1,0 +1,12 @@
+p {
+    font-size: 1em;
+    background-color: darkred;
+    color: white;
+    /*
+    display: inline;
+    */
+}
+.hide {
+    visibility: hidden;
+}
+
