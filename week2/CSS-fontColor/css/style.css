@@ -1,0 +1,14 @@
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-size: 100%; /*parent*/
+    font-size: 1em;
+    font-weight: 100;
+    font-weight: 200;
+    font-style: italic;
+    font-variant: small-caps;
+    color: blue;
+    text-align: center;
+    text-align: justify;
+    vertical-align: top;
+    text-decoration: dotted;
