@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 960px;
+    margin: 10px 0;
+    height: 1200px;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+.container {
+    margin: 50px 0;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 40px;
+    background-color: gray;
+}
+
+.menubar a {
+    
+    text-decoration: none;
+    display: inline-block; 
+    background-color: yellow;
+    font-size: 1.3em;
+    padding: 7px 20px;   
+}
+.menubar a:hover {
+    background-color: gainsboro;
+}
+.hello {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
