@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: antiquewhite;
+}
+.wrapper {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 960px;
+    height: 600px;
+    text-align: center;
+    padding: 2em 0 ;
+}
+.header {
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+.menubar {
+    padding: 1.2em 0;
+    border-bottom: 1px solid gray;
+}
+.menubar a {
+    text-decoration: none ;
+    color: white;
+    background-color: blueviolet;
+    padding: 0.7em 1em;;
+}
+.menubar a:hover {
+    background-color: green;
+}
+.menubar a:visited {
+    background-color: brown;
+}
+.contain {
+    padding: 1em;
+    text-align: left;    
+}
+.contain input {
+    outline: none;
+}
+.contain input:focus {    
+    border: 1px solid red;
+}
+
+/* 
+body {
+    background-color: gray;
+}
+.wrapper {
+    width: 960px;
+    height: 600px;
+    border: 1px solid red;
+    margin: 50px auto;
+}
+.header {
+    height: 2em;
+    color: white;
+    border: 1px solid yellow;
+    padding: 2em 0;
+    text-align: center;
+    background-color: black;
+    border-bottom: 1px solid green;
+}
+.header:hover {
+    background-color: green;
+}
+.menubar {
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+.menubar a {
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline-block;
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 7px;
+    border: 1px solid green;
+}
+a:hover {
+    background-color: orange;
+    border: 1px solid darkred;
+}
+a:active {
+    background-color: orangered;
+}
+a:visited {
+    background-color: green;
+}
+.contain {
+    padding: 20px ;
+}
+.contain input {
+    padding: 10px;
+    outline: none;
+    border: 1px solid darkred; 
+}
+.contain input:focus {
+    border: 1px solid green; 
+}
+*/

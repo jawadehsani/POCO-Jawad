@@ -9,12 +9,12 @@ html {
 }
 body {
     background-color: #2A282B;
+    text-align: center;    
 }
 div {
-    margin: 10em 10em;
+    margin-top: 20em ;
 }
-a {
-    
+a {    
     text-decoration: none;
     color: gray;
     padding: 0 20px;
