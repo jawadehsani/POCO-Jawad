@@ -17,10 +17,10 @@ div {
 a {    
     text-decoration: none;
     color: gray;
-    padding: 0 20px;
+    margin: 0 20px;
+    
 }
-.home {   
-    text-decoration: none;
+.home {    
     border-color: red;
     border-top-style: solid ;
     border-bottom-style: solid;
@@ -28,6 +28,15 @@ a {
 }
 a:hover {
     color: white;
+}
+
+
+
+a:active, a:focus {    
+    border-color: red;
+    border-top-style: solid ;
+    border-bottom-style: solid;
+    padding: 10px 0;        
 }
 
 
